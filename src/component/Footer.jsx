@@ -5,7 +5,7 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter,BsLinkedin } f
 
 export default function Footerr() {
   return (
-    <Footer container className='bg-slate-950'>
+    <Footer container className='bg-slate-900'>
       <div className="w-full ">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
@@ -13,7 +13,7 @@ export default function Footerr() {
             className='text-white'
               alt="Flowbite Logo"
               href="#"
-              name="Placement Cell, CSE Assam University Silchar"
+              name="Placement Cell, AUS"
               src={aus_logo}
             />
           </div>
