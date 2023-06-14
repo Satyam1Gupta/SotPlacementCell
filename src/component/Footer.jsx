@@ -5,7 +5,8 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter,BsLinkedin } f
 
 export default function Footerr() {
   return (
-    <Footer container className='bg-slate-900'>
+   <div >
+     <Footer container className='bg-slate-950'>
       <div className="w-full ">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
@@ -81,6 +82,7 @@ export default function Footerr() {
         </div>
       </div>
     </Footer>
+   </div>
   )
 }
 
